@@ -1,0 +1,29 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
+  "ExtendedData": {
+    "inputs": [
+      "http://dev33.facturacfdi.mx/WSTimbradoCFDIService?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, Timbrado_Formas"
+    ],
+    "references": [
+      "System.Formats.Asn1, {System.Formats.Asn1, 7.0.0}",
+      "System.Security.AccessControl, {System.Security.AccessControl, 6.0.0}",
+      "System.Security.Cryptography.Cng, {System.Security.Cryptography.Cng, 5.0.0}",
+      "System.Security.Cryptography.Pkcs, {System.Security.Cryptography.Pkcs, 7.0.1}",
+      "System.Security.Cryptography.Xml, {System.Security.Cryptography.Xml, 7.0.1}",
+      "System.Security.Principal.Windows, {System.Security.Principal.Windows, 5.0.0}"
+    ],
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}

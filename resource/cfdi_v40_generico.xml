@@ -1,0 +1,19 @@
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="" Exportacion="01" Fecha="2023-03-24T10:11:12" Folio="F1F2" FormaPago="99" LugarExpedicion="45050" MetodoPago="PPD" Moneda="MXN" NoCertificado="" Sello="" Serie="APSF" SubTotal="80000.00" TipoCambio="1" TipoDeComprobante="I" Total="92800.00" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd">
+	<cfdi:InformacionGlobal Año="2023" Meses="03" Periodicidad="01"/>
+	<cfdi:Emisor Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601" Rfc="EKU9003173C9"/>
+	<cfdi:Receptor DomicilioFiscalReceptor="45050" Nombre="PUBLICO EN GENERAL" RegimenFiscalReceptor="616" Rfc="XAXX010101000" UsoCFDI="S01"/>
+	<cfdi:Conceptos>
+		<cfdi:Concepto Cantidad="1.00" ClaveProdServ="10191508" ClaveUnidad="ACT" Descripcion="QUIMICA CLINICA" Importe="80000.00" NoIdentificacion="34006" ObjetoImp="02" ValorUnitario="80000.00">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="80000.00" Importe="12800.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos TotalImpuestosTrasladados="12800.00">
+		<cfdi:Traslados>
+			<cfdi:Traslado Base="80000.00" Importe="12800.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+</cfdi:Comprobante>

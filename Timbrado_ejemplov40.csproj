@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resource\cadenaoriginal_4_0.xslt" />
+    <None Remove="resource\cadenaOriginal_TFD_1_1.xslt" />
+    <None Remove="resource\cfdi_v40_generico.xml" />
+    <None Remove="resource\ESCUELA_KEMPER_URGATE_EKU9003173C9.cer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resource\cadenaoriginal_4_0.xslt" />
+    <Resource Include="resource\cadenaOriginal_TFD_1_1.xslt" />
+    <Resource Include="resource\cfdi_v40_generico.xml" />
+    <Content Include="resource\ESCUELA_KEMPER_URGATE_EKU9003173C9.cer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="opensslkey" Version="1.3.0.20130622" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="7.0.1" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="7.0.1" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>
