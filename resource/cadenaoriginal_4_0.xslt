@@ -37,6 +37,8 @@
 <xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/IngresosHidrocarburos10/IngresosHidrocarburos.xslt"/>
 <xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte20.xslt"/>
 <xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos20.xslt"/>
+<xsl:include href="http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte30.xslt"/>
+	
 <!--  Aquí iniciamos el procesamiento de la cadena original con su | inicial y el terminador ||  -->
 <xsl:template match="/">
 |
